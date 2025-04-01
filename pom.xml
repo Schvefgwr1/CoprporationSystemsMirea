@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>PR1</module>
+        <module>PR2</module>
+        <module>PR2</module>
     </modules>
 
     <properties>
