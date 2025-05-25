@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>test</groupId>
+        <artifactId>CoprporationSystemsMirea</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>test</groupId>
-    <artifactId>CoprporationSystemsMirea</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>PR1</module>
-        <module>PR2</module>
-        <module>PR2</module>
-        <module>PR3</module>
-        <module>PR4</module>
-    </modules>
+    <artifactId>PR4</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
